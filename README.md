@@ -5,4 +5,4 @@ A rebuilt website project mirroring a typical news site.
 
 
 Languages Used:
-HTML, CSS, JS, Jquery
+HTML, CSS, JS, JQuery
