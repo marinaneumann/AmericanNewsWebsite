@@ -138,6 +138,15 @@ h3 a:hover{
 }
 
 #articleSummary{
-  width:300px;
+  width:350px;
   color: #5a5a5a;
+}
+
+#articleContainer{
+  float:left;
+  width:750px;
+}
+#articleImage{
+  width:300px;
+  margin-left:20px;
 }
