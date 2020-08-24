@@ -3,15 +3,17 @@
   /*color:White;*/
   width:1000px;
   margin: 0 auto;
-  height:40px
+  height:40px;
   /*background-color:#bd0404;*/
 
 }
 
 .topbarSection{
   float:left;
+  /* position:absolute; */
+  /* right:15%; */
   border-left: 1px #CCCCCC solid;
-  height:100%;
+  height:180%;
 }
 
 body{
@@ -25,12 +27,69 @@ body{
   /* margin-left:10px; */
   margin-right:10px;
   border-radius:50%;
-  height:50px;
-  width:50px;
+  height:60px;
+  width:60px;
+  float:left;
 }
 #signinImage{
-  width:50px;
+  width:40px;
+  height:40px;
   margin:12px 15px;
   float:left;
 
+}
+
+#signinText{
+  font-weight:bold;
+  font-size:90%;
+  position:relative;
+  top:25px;
+  padding-right:15px;
+  /* border-right: 1px #CCCCCC solid; */
+}
+
+.topbarSection-menu{
+  font-weight:bold;
+  font-size:90%;
+  padding:25px;
+  height:60px;
+  float:left;
+  /* border-right: 1px #CCCCCC solid;
+  height:10px; */
+}
+#search{
+  background-color: #CCCCCC;
+  border:none;
+  font-weight:bold;
+  padding:10px;
+  margin:5px 0px 5px 5px;
+  float:left;
+}
+
+#searchImage{
+  height:25px;
+  margin-top:10px;
+
+}
+.clear{
+  clear:both;
+}
+
+#menuBar{
+  background-color: #bd0404;
+  width:100%;
+  height:100px;
+}
+
+#mB{
+  width:1000px;
+  margin:0 auto;
+}
+
+h1{
+  color:white;
+  padding:0;
+  margin:0;
+  font-size:50px;
+  padding-top:20px;
 }
