@@ -136,3 +136,8 @@ h3 a{
 h3 a:hover{
   color:#1167a8;
 }
+
+#articleSummary{
+  width:300px;
+  color: #5a5a5a;
+}
